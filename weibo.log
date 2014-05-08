@@ -1,0 +1,114 @@
+0    DEBUG [2013-11-14 20:42:00]  Request:
+1    DEBUG [2013-11-14 20:42:00]  POSThttps://api.weibo.com/2/statuses/update.json
+35   DEBUG [2013-11-14 20:42:00]  Authorization: OAuth2 2.00UFwQZC0kgBMdf5bf88c9200KpFcH
+35   DEBUG [2013-11-14 20:42:00]  API-RemoteIP: 192.168.170.1
+905  DEBUG [2013-11-14 20:42:01]  Response:
+905  DEBUG [2013-11-14 20:42:01]  https StatusCode:200
+905  DEBUG [2013-11-14 20:42:01]  Server:nginx/1.2.0
+905  DEBUG [2013-11-14 20:42:01]  Date:Thu, 14 Nov 2013 12:42:00 GMT
+905  DEBUG [2013-11-14 20:42:01]  Content-Type:application/json;charset=UTF-8
+906  DEBUG [2013-11-14 20:42:01]  Transfer-Encoding:chunked
+906  DEBUG [2013-11-14 20:42:01]  Connection:keep-alive
+906  DEBUG [2013-11-14 20:42:01]  Api-Server-IP:10.77.108.37
+906  DEBUG [2013-11-14 20:42:01]  Vary:Accept-Encoding
+906  DEBUG [2013-11-14 20:42:01]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+906  DEBUG [2013-11-14 20:42:01]  SINA-TS:NGI4OGMzNjggMCAxIDEgNyAzMDMK
+908  WARN  [2013-11-14 20:42:01]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+908  DEBUG [2013-11-14 20:42:01]  {"created_at":"Thu Nov 14 20:41:58 +0800 2013","id":3644638185102227,"mid":"3644638185102227","idstr":"3644638185102227","text":"java test","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2353473964,"idstr":"2353473964","class":1,"screen_name":"smile_hapi","name":"smile_hapi","province":"32","city":"1","location":"江苏 南京","description":"trial","url":"","profile_image_url":"http://tp1.sinaimg.cn/2353473964/50/39997283229/1","profile_url":"u/2353473964","domain":"","weihao":"","gender":"m","followers_count":11,"friends_count":28,"statuses_count":2,"favourites_count":0,"created_at":"Mon Aug 29 01:23:30 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","avatar_hd":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":1,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+916  INFO  [2013-11-14 20:42:01]  Status [user=User [id=2353473964, screenName=smile_hapi, name=smile_hapi, province=32, city=1, location=江苏 南京, description=trial, url=, profileImageUrl=http://tp1.sinaimg.cn/2353473964/50/39997283229/1, userDomain=, gender=m, followersCount=11, friendsCount=28, statusesCount=2, favouritesCount=0, createdAt=Mon Aug 29 01:23:30 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2353473964/180/39997283229/1, onlineStatus=0, status=null, biFollowersCount=1, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3644638185102227, createdAt=Thu Nov 14 20:41:58 CST 2013, id=3644638185102227, text=java test, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3644638185102227, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2013-11-14 20:53:08]  Request:
+0    DEBUG [2013-11-14 20:53:08]  POSThttps://api.weibo.com/2/statuses/update.json
+23   DEBUG [2013-11-14 20:53:08]  Authorization: OAuth2 2.00UFwQZC0kgBMdf5bf88c9200KpFcH
+24   DEBUG [2013-11-14 20:53:08]  API-RemoteIP: 192.168.170.1
+526  DEBUG [2013-11-14 20:53:08]  Response:
+527  DEBUG [2013-11-14 20:53:08]  https StatusCode:200
+527  DEBUG [2013-11-14 20:53:08]  Server:nginx/1.2.0
+527  DEBUG [2013-11-14 20:53:08]  Date:Thu, 14 Nov 2013 12:53:08 GMT
+527  DEBUG [2013-11-14 20:53:08]  Content-Type:application/json;charset=UTF-8
+527  DEBUG [2013-11-14 20:53:08]  Transfer-Encoding:chunked
+527  DEBUG [2013-11-14 20:53:08]  Connection:keep-alive
+527  DEBUG [2013-11-14 20:53:08]  Api-Server-IP:10.77.108.56
+527  DEBUG [2013-11-14 20:53:08]  Vary:Accept-Encoding
+527  DEBUG [2013-11-14 20:53:08]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+527  DEBUG [2013-11-14 20:53:08]  SINA-TS:NDg4OGMzNjggMCAxIDEgNyAxOTAK
+529  WARN  [2013-11-14 20:53:08]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+529  DEBUG [2013-11-14 20:53:08]  {"created_at":"Thu Nov 14 20:53:06 +0800 2013","id":3644640986867282,"mid":"3644640986867282","idstr":"3644640986867282","text":"gmail says hello to qqmail","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2353473964,"idstr":"2353473964","class":1,"screen_name":"smile_hapi","name":"smile_hapi","province":"32","city":"1","location":"江苏 南京","description":"trial","url":"","profile_image_url":"http://tp1.sinaimg.cn/2353473964/50/39997283229/1","profile_url":"u/2353473964","domain":"","weihao":"","gender":"m","followers_count":11,"friends_count":28,"statuses_count":2,"favourites_count":0,"created_at":"Mon Aug 29 01:23:30 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","avatar_hd":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":1,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+537  INFO  [2013-11-14 20:53:08]  Status [user=User [id=2353473964, screenName=smile_hapi, name=smile_hapi, province=32, city=1, location=江苏 南京, description=trial, url=, profileImageUrl=http://tp1.sinaimg.cn/2353473964/50/39997283229/1, userDomain=, gender=m, followersCount=11, friendsCount=28, statusesCount=2, favouritesCount=0, createdAt=Mon Aug 29 01:23:30 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2353473964/180/39997283229/1, onlineStatus=0, status=null, biFollowersCount=1, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3644640986867282, createdAt=Thu Nov 14 20:53:06 CST 2013, id=3644640986867282, text=gmail says hello to qqmail, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3644640986867282, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2013-11-14 21:08:40]  Request:
+1    DEBUG [2013-11-14 21:08:40]  POSThttps://api.weibo.com/2/statuses/update.json
+35   DEBUG [2013-11-14 21:08:40]  Authorization: OAuth2 2.00UFwQZC0kgBMdf5bf88c9200KpFcH
+35   DEBUG [2013-11-14 21:08:40]  API-RemoteIP: 192.168.170.1
+720  DEBUG [2013-11-14 21:08:40]  Response:
+721  DEBUG [2013-11-14 21:08:40]  https StatusCode:200
+721  DEBUG [2013-11-14 21:08:40]  Server:nginx/1.2.0
+721  DEBUG [2013-11-14 21:08:40]  Date:Thu, 14 Nov 2013 13:08:40 GMT
+721  DEBUG [2013-11-14 21:08:40]  Content-Type:application/json;charset=UTF-8
+721  DEBUG [2013-11-14 21:08:40]  Transfer-Encoding:chunked
+721  DEBUG [2013-11-14 21:08:40]  Connection:keep-alive
+721  DEBUG [2013-11-14 21:08:40]  Api-Server-IP:10.77.108.39
+721  DEBUG [2013-11-14 21:08:40]  Vary:Accept-Encoding
+721  DEBUG [2013-11-14 21:08:40]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+722  DEBUG [2013-11-14 21:08:40]  SINA-TS:NDg4OGMzNjggMCAxIDEgNyAxNzAK
+725  WARN  [2013-11-14 21:08:40]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+725  DEBUG [2013-11-14 21:08:40]  {"created_at":"Thu Nov 14 21:08:38 +0800 2013","id":3644644896152272,"mid":"3644644896152272","idstr":"3644644896152272","text":"deliver weibo when","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2353473964,"idstr":"2353473964","class":1,"screen_name":"smile_hapi","name":"smile_hapi","province":"32","city":"1","location":"江苏 南京","description":"trial","url":"","profile_image_url":"http://tp1.sinaimg.cn/2353473964/50/39997283229/1","profile_url":"u/2353473964","domain":"","weihao":"","gender":"m","followers_count":11,"friends_count":28,"statuses_count":2,"favourites_count":0,"created_at":"Mon Aug 29 01:23:30 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","avatar_hd":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":1,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+733  INFO  [2013-11-14 21:08:40]  Status [user=User [id=2353473964, screenName=smile_hapi, name=smile_hapi, province=32, city=1, location=江苏 南京, description=trial, url=, profileImageUrl=http://tp1.sinaimg.cn/2353473964/50/39997283229/1, userDomain=, gender=m, followersCount=11, friendsCount=28, statusesCount=2, favouritesCount=0, createdAt=Mon Aug 29 01:23:30 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2353473964/180/39997283229/1, onlineStatus=0, status=null, biFollowersCount=1, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3644644896152272, createdAt=Thu Nov 14 21:08:38 CST 2013, id=3644644896152272, text=deliver weibo when, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3644644896152272, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2013-11-15 10:09:20]  Request:
+1    DEBUG [2013-11-15 10:09:20]  POSThttps://api.weibo.com/2/statuses/update.json
+22   DEBUG [2013-11-15 10:09:20]  Authorization: OAuth2 2.00UFwQZC0kgBMdf5bf88c9200KpFcH
+22   DEBUG [2013-11-15 10:09:20]  API-RemoteIP: 192.168.170.1
+564  DEBUG [2013-11-15 10:09:20]  Response:
+564  DEBUG [2013-11-15 10:09:20]  https StatusCode:200
+564  DEBUG [2013-11-15 10:09:20]  Server:nginx/1.2.0
+564  DEBUG [2013-11-15 10:09:20]  Date:Fri, 15 Nov 2013 02:09:20 GMT
+564  DEBUG [2013-11-15 10:09:20]  Content-Type:application/json;charset=UTF-8
+564  DEBUG [2013-11-15 10:09:20]  Transfer-Encoding:chunked
+565  DEBUG [2013-11-15 10:09:20]  Connection:keep-alive
+565  DEBUG [2013-11-15 10:09:20]  Api-Server-IP:10.77.108.50
+565  DEBUG [2013-11-15 10:09:20]  Vary:Accept-Encoding
+565  DEBUG [2013-11-15 10:09:20]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+565  DEBUG [2013-11-15 10:09:20]  SINA-TS:NGE4OGMzNjggMCAxIDEgOCAzNjIK
+567  WARN  [2013-11-15 10:09:20]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+567  DEBUG [2013-11-15 10:09:20]  {"created_at":"Fri Nov 15 10:09:19 +0800 2013","id":3644841357411657,"mid":"3644841357411657","idstr":"3644841357411657","text":"IFTTT java test","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2353473964,"idstr":"2353473964","class":1,"screen_name":"smile_hapi","name":"smile_hapi","province":"32","city":"1","location":"江苏 南京","description":"trial","url":"","profile_image_url":"http://tp1.sinaimg.cn/2353473964/50/39997283229/1","profile_url":"u/2353473964","domain":"","weihao":"","gender":"m","followers_count":11,"friends_count":28,"statuses_count":2,"favourites_count":0,"created_at":"Mon Aug 29 01:23:30 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","avatar_hd":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":1,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+574  INFO  [2013-11-15 10:09:20]  Status [user=User [id=2353473964, screenName=smile_hapi, name=smile_hapi, province=32, city=1, location=江苏 南京, description=trial, url=, profileImageUrl=http://tp1.sinaimg.cn/2353473964/50/39997283229/1, userDomain=, gender=m, followersCount=11, friendsCount=28, statusesCount=2, favouritesCount=0, createdAt=Mon Aug 29 01:23:30 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2353473964/180/39997283229/1, onlineStatus=0, status=null, biFollowersCount=1, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3644841357411657, createdAt=Fri Nov 15 10:09:19 CST 2013, id=3644841357411657, text=IFTTT java test, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3644841357411657, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+373208 DEBUG [2013-11-15 10:15:33]  Request:
+373208 DEBUG [2013-11-15 10:15:33]  POSThttps://api.weibo.com/2/statuses/update.json
+373209 DEBUG [2013-11-15 10:15:33]  Authorization: OAuth2 2.00UFwQZC0kgBMdf5bf88c9200KpFcH
+373209 DEBUG [2013-11-15 10:15:33]  API-RemoteIP: 192.168.170.1
+373816 DEBUG [2013-11-15 10:15:33]  Response:
+373816 DEBUG [2013-11-15 10:15:33]  https StatusCode:200
+373816 DEBUG [2013-11-15 10:15:33]  Server:nginx/1.2.0
+373816 DEBUG [2013-11-15 10:15:33]  Date:Fri, 15 Nov 2013 02:15:33 GMT
+373817 DEBUG [2013-11-15 10:15:33]  Content-Type:application/json;charset=UTF-8
+373817 DEBUG [2013-11-15 10:15:33]  Transfer-Encoding:chunked
+373817 DEBUG [2013-11-15 10:15:33]  Connection:keep-alive
+373817 DEBUG [2013-11-15 10:15:33]  Api-Server-IP:10.77.108.57
+373817 DEBUG [2013-11-15 10:15:33]  Vary:Accept-Encoding
+373817 DEBUG [2013-11-15 10:15:33]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+373817 DEBUG [2013-11-15 10:15:33]  SINA-TS:NDg4OGMzNjggMCAxIDEgNyA0NTYK
+373817 WARN  [2013-11-15 10:15:33]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+373817 DEBUG [2013-11-15 10:15:33]  {"created_at":"Fri Nov 15 10:15:32 +0800 2013","id":3644842921892756,"mid":"3644842921892756","idstr":"3644842921892756","text":"receive email->deliver weibo","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2353473964,"idstr":"2353473964","class":1,"screen_name":"smile_hapi","name":"smile_hapi","province":"32","city":"1","location":"江苏 南京","description":"trial","url":"","profile_image_url":"http://tp1.sinaimg.cn/2353473964/50/39997283229/1","profile_url":"u/2353473964","domain":"","weihao":"","gender":"m","followers_count":11,"friends_count":28,"statuses_count":2,"favourites_count":0,"created_at":"Mon Aug 29 01:23:30 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","avatar_hd":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":1,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+373819 INFO  [2013-11-15 10:15:33]  Status [user=User [id=2353473964, screenName=smile_hapi, name=smile_hapi, province=32, city=1, location=江苏 南京, description=trial, url=, profileImageUrl=http://tp1.sinaimg.cn/2353473964/50/39997283229/1, userDomain=, gender=m, followersCount=11, friendsCount=28, statusesCount=2, favouritesCount=0, createdAt=Mon Aug 29 01:23:30 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2353473964/180/39997283229/1, onlineStatus=0, status=null, biFollowersCount=1, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3644842921892756, createdAt=Fri Nov 15 10:15:32 CST 2013, id=3644842921892756, text=receive email->deliver weibo, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3644842921892756, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2013-11-20 19:33:45]  Request:
+15   DEBUG [2013-11-20 19:33:46]  POSThttps://api.weibo.com/2/statuses/update.json
+100  DEBUG [2013-11-20 19:33:46]  Authorization: OAuth2 2.00UFwQZC0kgBMdf5bf88c9200KpFcH
+100  DEBUG [2013-11-20 19:33:46]  API-RemoteIP: 114.212.133.44
+547  DEBUG [2013-11-20 19:33:46]  Response:
+547  DEBUG [2013-11-20 19:33:46]  https StatusCode:200
+547  DEBUG [2013-11-20 19:33:46]  Server:nginx/1.2.0
+547  DEBUG [2013-11-20 19:33:46]  Date:Wed, 20 Nov 2013 11:33:47 GMT
+547  DEBUG [2013-11-20 19:33:46]  Content-Type:application/json;charset=UTF-8
+547  DEBUG [2013-11-20 19:33:46]  Transfer-Encoding:chunked
+547  DEBUG [2013-11-20 19:33:46]  Connection:keep-alive
+547  DEBUG [2013-11-20 19:33:46]  Api-Server-IP:10.77.108.51
+547  DEBUG [2013-11-20 19:33:46]  Vary:Accept-Encoding
+547  DEBUG [2013-11-20 19:33:46]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+547  DEBUG [2013-11-20 19:33:46]  SINA-TS:NGQ4OGMzNjggMCAxIDEgNyAxODcK
+587  WARN  [2013-11-20 19:33:46]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+587  DEBUG [2013-11-20 19:33:46]  {"created_at":"Wed Nov 20 19:33:45 +0800 2013","id":3646795344812632,"mid":"3646795344812632","idstr":"3646795344812632","text":"12345678","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2353473964,"idstr":"2353473964","class":1,"screen_name":"smile_hapi","name":"smile_hapi","province":"32","city":"1","location":"江苏 南京","description":"trial","url":"","profile_image_url":"http://tp1.sinaimg.cn/2353473964/50/39997283229/1","profile_url":"u/2353473964","domain":"","weihao":"","gender":"m","followers_count":11,"friends_count":28,"statuses_count":16,"favourites_count":0,"created_at":"Mon Aug 29 01:23:30 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","avatar_hd":"http://tp1.sinaimg.cn/2353473964/180/39997283229/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":1,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+692  INFO  [2013-11-20 19:33:46]  Status [user=User [id=2353473964, screenName=smile_hapi, name=smile_hapi, province=32, city=1, location=江苏 南京, description=trial, url=, profileImageUrl=http://tp1.sinaimg.cn/2353473964/50/39997283229/1, userDomain=, gender=m, followersCount=11, friendsCount=28, statusesCount=16, favouritesCount=0, createdAt=Mon Aug 29 01:23:30 CST 2011, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp1.sinaimg.cn/2353473964/180/39997283229/1, onlineStatus=0, status=null, biFollowersCount=1, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3646795344812632, createdAt=Wed Nov 20 19:33:45 CST 2013, id=3646795344812632, text=12345678, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3646795344812632, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
