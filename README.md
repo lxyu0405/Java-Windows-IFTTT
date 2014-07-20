@@ -1,8 +1,7 @@
 IFTTT(Windows)
 ==============
 
-Java IFTTT
-		"IF THIS THEN THAT". It can be lots of fun! 
+> This is an Experiment of the course "Java Program Design"
 
 Functions:
 ----------
@@ -10,3 +9,6 @@ Functions:
 		2. Time --> Release a Sina Weibo
 		3. Receive a Gmail --> Send an Email
 		4. Receive Gmail --> Release a Sina Weibo
+
+
+> IFTTT means "IF THIS THEN THAT" and it can be of lots of fun! 
